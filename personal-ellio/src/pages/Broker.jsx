@@ -32,7 +32,7 @@ function Broker() {
         tabIndex={0}
         className="collapse md:w-2/4 xl:w-3/4 collapse-arrow border border-base-300 bg-base-100 rounded-box"
       >
-        <div className="collapse-title text-xl font-medium">Mục Lục</div>
+        <div className="collapse-title text-xl font-medium">Mục Lụ</div>
         <div className="collapse-content gap-3">
           <Link className="py-3 hover:text-red-600">Sàn forex là gì?</Link>
           <br />
