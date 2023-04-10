@@ -1,7 +1,7 @@
 import React from "react";
 
 function Community() {
-  return <div>Comunity</div>;
+  return <div className="">Comunity</div>;
 }
 
 export default Community;
