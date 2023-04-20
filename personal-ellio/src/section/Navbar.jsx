@@ -14,10 +14,12 @@ function Navbar() {
         <TickerTape colorTheme="dark" />
       </div>
 
-      <div className="w-full flex justify-between p-3">
-        <Link to={"home"}>Ellio</Link>
+      <div className="w-full flex justify-center gap-3 p-3 items-center">
+        <div className="w-1/4">
+          <Link to={"home"}>Ellio</Link>
+        </div>
 
-        <div className="flex w-3/4 justify-around items-center">
+        <div className="flex w-3/4 gap-3 justify-center items-center">
           <Link
             to={"education"}
             className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300"
@@ -42,6 +44,9 @@ function Navbar() {
           >
             Community
           </Link>
+          <div className="w-1/4 text-right opacity-0 sm:opacity-100">
+            <h1>Login</h1>
+          </div>
         </div>
 
         <div className="fixed grid justify-center z-50 items-center gap-1 right-0 bottom-1/2 bg-slate-200 rounded-l-md py-3 ">

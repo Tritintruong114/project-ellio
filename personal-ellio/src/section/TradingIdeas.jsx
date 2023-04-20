@@ -10,7 +10,10 @@ export function IdeaCard({ urlImage, date, status }) {
       </h1>
       <p className="text-xs text-opacity-60 text-white">{date}</p>
       <img className="rounded" src={urlImage}></img>
-      <Link className="w-fit rounded-full px-1 text-xs text-center py-1 bg-white bg-opacity-30 hover:text-red-600 ">
+      <Link
+        to={"detail/111111"}
+        className="w-fit rounded-full px-1 text-xs text-center py-1 bg-white bg-opacity-30 hover:text-red-600 "
+      >
         See more
       </Link>
     </div>

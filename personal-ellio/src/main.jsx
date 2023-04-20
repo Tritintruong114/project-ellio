@@ -8,7 +8,7 @@ import Trading from "./pages/Trading";
 import Body from "./components/Body";
 import Education from "./pages/Education";
 import Community from "./pages/Community";
-
+import Detail from "./pages/Detail";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +19,7 @@ const router = createBrowserRouter([
       { path: "education", element: <Education /> },
       { path: "community", element: <Community /> },
       { path: "home", element: <Body /> },
+      { path: "detail/:id", element: <Detail /> },
       { index: true, element: <Body /> },
     ],
   },
