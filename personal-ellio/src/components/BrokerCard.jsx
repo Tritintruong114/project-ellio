@@ -43,7 +43,7 @@ function BrokerCard({
             Mở Tài Khoản
           </button>
           <button className="px-5 py-2 border border-blue-400 rounded-full">
-            Xem Review
+            Xem
           </button>
         </div>
       </div>
