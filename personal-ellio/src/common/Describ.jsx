@@ -1,6 +1,6 @@
 import React from "react";
 
-function Describ({ desc }) {
+function Describe({ desc }) {
   return (
     <div className="flex items-center">
       <img
@@ -12,4 +12,4 @@ function Describ({ desc }) {
   );
 }
 
-export default Describ;
+export default Describe;
