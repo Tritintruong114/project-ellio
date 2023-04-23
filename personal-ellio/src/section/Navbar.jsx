@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { TickerTape } from "react-ts-tradingview-widgets";
 import { Link } from "react-router-dom";
 import {
@@ -8,7 +8,10 @@ import {
   UilTelegramAlt,
   UilTrademark,
 } from "@iconscout/react-unicons";
+import { AuthContext } from "../context/authProvider";
+
 function Navbar() {
+  const auth = useContext(AuthContext);
   return (
     <div>
       <div>
@@ -17,7 +20,9 @@ function Navbar() {
 
       <div className="w-full flex justify-center gap-3 p-3 items-center">
         <div className="w-full absolute left-3 opacity-0 sm:opacity-100">
-          <Link to={"home"}>Ellio</Link>
+          <Link to={"/"}>
+            <button>Ellio</button>
+          </Link>
         </div>
 
         <div className="flex w-3/4 gap-6 justify-center items-center">
@@ -43,9 +48,13 @@ function Navbar() {
           </Link>
 
           <div className="w-full text-right right-3 absolute opacity-0  sm:opacity-100">
-            <Link to={"login"}>
-              <h1>Login</h1>
-            </Link>
+            {auth.isLogin ? (
+              <button onClick={() => auth.logout()}>Log Out</button>
+            ) : (
+              <Link to={"login"}>
+                <h1>Login</h1>
+              </Link>
+            )}
           </div>
         </div>
 
