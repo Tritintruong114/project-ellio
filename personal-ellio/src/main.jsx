@@ -9,6 +9,7 @@ import Body from "./components/Body";
 import Education from "./pages/Education";
 import Community from "./pages/Community";
 import Detail from "./pages/Detail";
+import Login from "./pages/Login";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "home", element: <Body /> },
       { path: "detail/:id", element: <Detail /> },
       { index: true, element: <Body /> },
+      { path: "login", element: <Login /> },
     ],
   },
 ]);

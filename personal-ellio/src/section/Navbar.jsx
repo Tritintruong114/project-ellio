@@ -2,6 +2,7 @@ import React from "react";
 import { TickerTape } from "react-ts-tradingview-widgets";
 import { Link } from "react-router-dom";
 import {
+  // import Community from './../pages/Community';
   UilFacebookF,
   UilInstagram,
   UilTelegramAlt,
@@ -15,37 +16,36 @@ function Navbar() {
       </div>
 
       <div className="w-full flex justify-center gap-3 p-3 items-center">
-        <div className="w-1/4">
+        <div className="w-full absolute left-3 opacity-0 sm:opacity-100">
           <Link to={"home"}>Ellio</Link>
         </div>
 
-        <div className="flex w-3/4 gap-3 justify-center items-center">
-          <Link
-            to={"education"}
-            className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300"
-          >
-            Education
+        <div className="flex w-3/4 gap-6 justify-center items-center">
+          <Link to={"education"}>
+            <button className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300">
+              Education
+            </button>
           </Link>
-          <Link
-            to={"broker"}
-            className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300"
-          >
-            Broker
+          <Link to={"broker"}>
+            <button className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300">
+              Broker
+            </button>
           </Link>
-          <Link
-            to={"trading"}
-            className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300"
-          >
-            Trading
+          <Link to={"trading"}>
+            <button className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300">
+              Trading
+            </button>
           </Link>
-          <Link
-            to={"community"}
-            className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300"
-          >
-            Community
+          <Link to={"community"}>
+            <button className="text-md md:text-xl xl:text-3xl font-light hover:text-red-300">
+              Community
+            </button>
           </Link>
-          <div className="w-1/4 text-right opacity-0 sm:opacity-100">
-            <h1>Login</h1>
+
+          <div className="w-full text-right right-3 absolute opacity-0  sm:opacity-100">
+            <Link to={"login"}>
+              <h1>Login</h1>
+            </Link>
           </div>
         </div>
 

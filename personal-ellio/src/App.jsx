@@ -10,7 +10,7 @@ function App() {
       <div>
         <Header />
       </div>
-      <div>
+      <div className="bg-white">
         <Outlet />
       </div>
     </div>

@@ -1,7 +1,18 @@
 import React from "react";
 import Describ from "../common/Describ";
 
-function BrokerCard({ imgUrl, brokerTilte, brokerPoints, imgStarUrl }) {
+function BrokerCard({
+  imgUrl,
+  brokerTilte,
+  brokerPoints,
+  imgStarUrl,
+  des1,
+  des2,
+  des3,
+  des4,
+  des5,
+  des6,
+}) {
   return (
     <div className="w-full h-full border border-black rounded-xl p-3">
       <div className="flex  relative justify-center items-center gap-3">
@@ -20,16 +31,12 @@ function BrokerCard({ imgUrl, brokerTilte, brokerPoints, imgStarUrl }) {
       </div>
       <div className="flex flex-col pt-3 justify-center items-center">
         <div>
-          <Describ desc={"Tiền nạp tối thiểu thấp."} />
-          <Describ desc={" Đòn bẩy cao 1: vô cực."} />
-          <Describ desc={" Rút tiền siêu nhanh kể cả thứ 7 và chủ nhật."} />
-          <Describ
-            desc={
-              "Miễn phí qua đêm (phí swap) cho tiền điện tử và VÀNG (rất ít sàn làm được)."
-            }
-          />
-          <Describ desc={"Nhân viên hỗ trợ nhiệt tình, chuyên nghiệp."} />
-          <Describ desc={"Thủ tục đăng ký nhanh chóng, đơn giản."} />
+          <Describ desc={des1} />
+          <Describ desc={des2} />
+          <Describ desc={des3} />
+          <Describ desc={des4} />
+          <Describ desc={des5} />
+          {/* <Describ desc={des6} /> */}
         </div>
         <div className="flex flex-col h-fit w-fit p-3 gap-3 justify-center items-center">
           <button className="px-4 py-2 bg-blue-400 rounded-full">
