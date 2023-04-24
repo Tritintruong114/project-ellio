@@ -12,6 +12,8 @@ function BrokerCard({
   des4,
   des5,
   des6,
+  exness,
+  liteforex,
 }) {
   return (
     <div className="w-full h-full border border-black rounded-xl p-3">
@@ -38,11 +40,20 @@ function BrokerCard({
           <Describ desc={des5} />
           {/* <Describ desc={des6} /> */}
         </div>
-        <div className="flex flex-col h-fit w-fit p-3 gap-3 justify-center items-center">
-          <button className="px-4 py-2 bg-blue-400 rounded-full">
-            Mở Tài Khoản
+        <div className="flex flex-col h-fit w-full p-3 gap-3 justify-center items-center">
+          <button className="w-1/2 py-2 bg-blue-400 rounded-full">
+            <a
+              target="_blank"
+              href={
+                exness
+                  ? `https://one.exnesslink.com/a/t11qu5wb4x`
+                  : `https://www.litefinance.org/?uid=514106246&cid=104103`
+              }
+            >
+              Mở tài khỏan
+            </a>
           </button>
-          <button className="px-5 py-2 border border-blue-400 rounded-full">
+          <button className="w-1/2  py-2 border border-blue-400 rounded-full">
             Xem
           </button>
         </div>

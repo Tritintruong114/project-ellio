@@ -25,6 +25,30 @@ const brokerData = {
     "Hiện tại, sàn forex “sống” được chủ yếu nhờ vào 2 nguồn thu chính là phí hoa hồng (commision) và spread (phí chênh lệch giữa lệnh mua và bán).Để đáp ứng nhu cầu của trader, sàn forex nào cũng có 2 dạng tài khoản cơ bản là tài khoản chỉ thu phí spread không thu phí hoa hồng. Và loại chủ yếu thu phí hoa hồng, bù lại phí spread sẽ thấp hơn nhiều so với dạng tài khoản thứ nhất.Sử dụng loại tài khoản nào còn phụ thuộc vào mục đích giao dịch từng người, để tìm loại phí phù hợp nhất. Ví dụ với trader yêu thích lướt sóng họ thường chọn các sàn forex dạng ECN thu phí hoa hồng trên mỗi lot giao dịch, thay vì chọn các loại tài khoản thu phí spread",
   brokerSupport:
     "Trong quá trình giao dịch sẽ phát sinh nhiều vấn đề. Do đó, tiêu chí để đánh giá một sàn forex uy tín là phải có đội ngũ hỗ trợ người Việt. Điều này giúp ích rất nhiều cho các trader, đặc biệt là những trader mới vào nghề. Bạn có thể tranh thủ đặt những câu hỏi liên quan đến phân tích kỹ thuật, mà đôi khi phải bỏ ra một số tiền khá lớn đi học bên ngoài các thầy mới giải đáp cho. Hầu hết, những nhân viên hỗ trợ sàn forex đều có kinh nghiệm giao dịch thực chiến, nên họ sẽ hiểu tâm lý cũng như phân tích kỹ thuật để đưa cho bạn những câu trả lời hợp lý nhất.",
+  broketExness:
+    "Nhờ vào khả năng cung cấp trên 120 công cụ tài chính, cùng việc khớp lệnh thị trường tốt nhất hiện nay chỉ từ 0,01 giây, đã khiến sàn forex Exness trở thành 1 cái tên quen thuộc với nhiều trader Việt Nam cũng như trader trên toàn thế giới.",
+  brokerExness1:
+    "Một điểm cộng không thể không nói tới chính là sàn forex này cực kỳ phù hợp với ai thích giao dịch tiền ảo. Ngoài việc không mất phí Swap, để trader có thể treo lệnh “xuyên màn đêm” như nhiều sàn chuyên về tiền điện tử khác, Exness còn hỗ trợ đòn bẩy khá cao lên tới 1:100 cho cặp tiền BTCUSD. Với các cặp còn lại sẽ được hưởng mức 1:20, nên rất đáng để bạn trải nghiệm và giao dịch thử tại đây.",
+  brokerExness2:
+    "Cấp phép và quản lý: Có trụ sở được đặt tại Cyprus, nên Exness hoạt động và chịu sự giám sát từ chính cơ quan CySEC (Cyprus Securities and Exchange Commission).",
+  brokerExness3:
+    "Đây là ưu điểm lớn nhất của Exness. Không chỉ cho phép rút và nạp tiền không mất phí hoa hồng đối với hầu hết các hệ thống thanh toán. Mà thời gian rút tiền siêu nhanh chưa tới 10 phút là tiền đã về tài khoản (ngân lượng). Đặc biệt, Exness còn hỗ trợ trader rút tiền ngay cả thứ 7 và chủ nhật, điều mà chưa 1 sàn forex nào làm được tính ở thời điểm hiện tại.",
+  brokerExness4:
+    "Hiện tại, Exness cung cấp rất nhiều loại tài khoản khác nhau cho bạn lựa chọn như tài khoản Standard và Standard Cent cùng 3 tài khoản chuyên nghiệp: Raw Spread, Pro và Zero cùng với mức spread dễ chịu, tuy nhiên vẫn bị giãn khi có tin ra.",
+  brokerExness5:
+    "Ngoài việc rút tiền nhanh thì sàn forex Exness còn có đội ngũ hỗ trợ người Việt rất đông đảo, nhiệt tình và chuyện nghiệp. Nếu không muốn chat trực tiếp bạn có thể gọi điện tới tổng đài để gặp tư vấn theo số: 18004974.",
+  liteforex:
+    "So với nhiều sàn giao dịch forex đang hoạt động tại Việt Nam, LiteForex có tốc độ phát triển nhanh vượt bậc, đặc biệt là giai đoạn từ giữa năm 2019 cho đến nay. Hiện tại, hệ thống văn phòng đại diện LiteForex trải dài trên rất nhiều tỉnh thành từ Bắc đến Nam, nhằm tiếp cận và hỗ trợ khách hàng giao dịch một cách tốt nhất.",
+  liteforex1:
+    "Bài đánh giá chi tiết về LiteForex dưới đây, sẽ giúp cho bạn phần nào hiểu rõ hơn về LiteForex từ các sản phẩm sàn cung cấp, tỷ lệ đòn bẩy cho đến chính sách nạp rút, để bạn tự quyết định xem LiteForex có thực sự là sàn để bạn lựa chọn giao dịch hay không nhé!",
+  liteforex2:
+    "Giấy phép CySEC – No.230122 của Cyprus:  CySEC là Ủy ban Chứng khoán và Giao dịch Cộng hòa Síp, cơ quan quản lý tài chính quần đảo Síp. Là một thành viên của Liên Minh Châu Âu EU, các quy định và hoạt động tài chính của CySEC tuân thủ theo luật tài chính MiFID của châu Âu.",
+  liteforex3:
+    "Cả 2 loại tài khoản này của LiteForex đều có mức nạp tiền tối thiểu thấp chỉ từ 50$ trở lên. Điều này khá hấp dẫn với trader, đặc biệt là với những ai thích khám phá công nghệ mới. Bởi rất nhiều sàn ECN thường yêu cầu số tiền nạp tối thiểu từ 200$ trở lên như ICMarkets chẳng hạn. Nên chỉ với 50$ tại LiteForex đã giúp bạn có 1 tài khoản ECN, là 1 điều hết sức tuyệt vời đáng để bạn thử sức.",
+  liteforex4:
+    "LiteForex hỗ trợ rất nhiều cổng nạp rút khác nhau cho khách hàng lựa chọn như : cung cấp cũng rất đa dạng cho khách hàng lựa chọn như: rút tiền tự động, các cổng thanh toán điện tử như : Perfect money, Neteller, Skrill, Visa, tiền điện tử, Chuyển Khoản Ngân Hàng nội địa và Ngân Lượng.",
+  liteforex5:
+    "LiteForex là một trong những sàn hiếm hoi tại Việt Nam có đội ngũ chăm sóc khách hàng người Việt được đào tạo bài bản từ phong cách giao tiếp đến kiến thức chuyên môn, nhằm hỗ trợ khách hàng một cách tốt nhất.Ở những sàn giao dịch khác, sale sẽ kiêm nhiệm cả vị trí hỗ trợ khách hàng, điều này dẫn đến việc khách hàng sẽ không được hỗ trợ 24/24 hay bất kỳ khi nào gặp sự cố cần giải quyết ngay. LiteForex đã xây dựng một bộ phận chăm sóc khách hàng riêng được gọi là bộ phận Support với gần 20 nhân sự, luôn trong tư thế sẵn sàng tư vấn cho trader 24/7 thông qua các kênh chat trên website, telegram, zalo, fanpage Facebook,… hoặc bạn có thể gọi hotline: 02873019986.",
 };
 
 export function Title({ title, type }) {
@@ -33,7 +57,7 @@ export function Title({ title, type }) {
   );
 }
 export function Para({ para }) {
-  return <p className="text-lg font-light ">{para}</p>;
+  return <p className="text-xl font-light ">{para}</p>;
 }
 function Broker() {
   const auth = useContext(AuthContext);
@@ -123,6 +147,7 @@ function Broker() {
           imgUrl={
             "https://kienthucforex.com/wp-content/uploads/2020/06/Exness-sidebar-320x160.png"
           }
+          exness={"true"}
           brokerTilte={"Sàn Exness"}
           brokerPoints={"5/5"}
           imgStarUrl={
@@ -131,15 +156,16 @@ function Broker() {
         />
         <BrokerCard
           des1={"Sở hữu nhiều giấy phép uy tín"}
-          des2={"Nạp tiền tối thiểu thấp từ 1$"}
+          des2={"Ký quỹ tối thiểu: $50"}
           des3={"Vàng được miễn phí qua đêm"}
           des4={"Giao dịch cổ phiếu được hưởng Cổ Tức, không mất phí Hoa hồng"}
           des5={"Nhiều talkshow và chương trình bonus tốt"}
           des6={"Nhân viên hỗ trợ nhiệt tình"}
           imgUrl={
-            "https://kienthucforex.com/wp-content/uploads/2020/06/XTB-min-320x160.png"
+            "https://kienthucforex.com/wp-content/uploads/2020/09/LiteForex-400x200-min-320x160.png"
           }
-          brokerTilte={"Sàn XTB"}
+          liteforex={"true"}
+          brokerTilte={"Sàn Liteforex"}
           imgStarUrl={
             "https://static.vecteezy.com/system/resources/previews/009/663/133/original/5-star-rating-review-star-transparent-free-png.png"
           }
@@ -242,11 +268,51 @@ function Broker() {
         ></img>
         <Para para={brokerData.brokerSupport} />
         <Title title={"Các sàn giao dịch forex uy tín nhất hiện nay"} />
-
-        <h1 className="font-bold w-full text-left text-red-900">
+        <h1 className="font-bold w-full text-xl text-left text-red-900">
           1.Sàn Exness
         </h1>
-        <img className="w-full object-cover" src=""></img>
+        <img
+          className="w-full object-cover"
+          src="https://media.licdn.com/dms/image/C5612AQHCd5Xqj8ehrA/article-cover_image-shrink_600_2000/0/1646125361844?e=2147483647&v=beta&t=tMyvQQIdeyStaVdRL3Do_XDd5XCgL912XuLLur26rTU"
+        ></img>
+        <Para para={brokerData.broketExness} />
+        <Para para={brokerData.brokerExness1} />
+        <h2 className="font-bold">
+          Cấp phép quản lý <Para para={brokerData.brokerExness2} />
+        </h2>{" "}
+        <h2 className="font-bold">
+          Loại tài khoản
+          <Para para={brokerData.brokerExness4} />
+        </h2>{" "}
+        <h2 className="font-bold">
+          Kênh nạp rút <Para para={brokerData.brokerExness3} />
+        </h2>{" "}
+        <h2 className="font-bold">
+          Đội ngũ hỗ trợ <Para para={brokerData.brokerExness5} />
+        </h2>
+        <h1 className="font-bold w-full text-xl text-left text-red-900">
+          1.Sàn Lite
+        </h1>
+        <img
+          className="w-full object-cover"
+          src="https://8thstreetgrille.com/wp-content/uploads/2022/09/LiteFinance.jpg"
+        ></img>
+        <Para para={brokerData.liteforex} />
+        <Para para={brokerData.liteforex1} />
+        <h2 className="font-bold">
+          Cấp phép quản lý <Para para={brokerData.liteforex2} />
+        </h2>{" "}
+        <h2 className="font-bold">
+          Loại tài khoản
+          <Para para={brokerData.liteforex3} />
+        </h2>{" "}
+        <h2 className="font-bold">
+          Kênh nạp rút <Para para={brokerData.liteforex4} />
+        </h2>{" "}
+        <img src="https://kienthucforex.com/wp-content/uploads/2020/05/9-nap-tin-tai-lite-forex.jpg"></img>
+        <h2 className="font-bold">
+          Đội ngũ hỗ trợ <Para para={brokerData.liteforex5} />
+        </h2>
       </div>
     </div>
   );
