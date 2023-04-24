@@ -19,7 +19,7 @@ function Navbar() {
       </div>
 
       <div className="w-full flex justify-center gap-3 p-3 items-center">
-        <div className="w-full absolute left-3 opacity-0 sm:opacity-100">
+        <div className=" absolute left-3 opacity-0 sm:opacity-100">
           <Link to={"/"}>
             <button>Ellio</button>
           </Link>
@@ -47,7 +47,7 @@ function Navbar() {
             </button>
           </Link>
 
-          <div className="w-full text-right right-3 absolute opacity-0  sm:opacity-100">
+          <div className=" text-right right-3 absolute opacity-0  sm:opacity-100">
             {auth.isLogin ? (
               <button onClick={() => auth.logout()}>Log Out</button>
             ) : (

@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useContext, useEffect } from "react";
 import { UilUserCircle, UilTelegramAlt } from "@iconscout/react-unicons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import BrokerCard from "../components/BrokerCard";
+import { AuthContext } from "../context/authProvider";
 
 const brokerData = {
   whatisforexBoker:
@@ -35,6 +36,13 @@ export function Para({ para }) {
   return <p className="text-lg font-light ">{para}</p>;
 }
 function Broker() {
+  const auth = useContext(AuthContext);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (!auth.isLogin) {
+      navigate("/login");
+    }
+  }, []);
   const data = new Date();
   const ref = useRef(null);
 

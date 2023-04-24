@@ -1,8 +1,8 @@
 import React from "react";
 // import {} from "";
 import { useEffect, useContext } from "react";
-import { AuthContext } from "../context/authProvider";
 import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../context/authProvider";
 
 function Education() {
   const auth = useContext(AuthContext);
