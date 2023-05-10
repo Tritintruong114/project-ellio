@@ -41,14 +41,18 @@ function Trading() {
   }, []);
 
   return (
-    <section>
-      <h1 className="text-center font-bold ">This is trading ideas</h1>
+    <section className="mx-10">
+      <h1 className="text-center py-10 text-3xl font-bold ">
+        This is trading ideas
+      </h1>
       <div className="grid grid-cols-2 text-center">
         {stories?.map((idea) => {
           return (
-            <div>
-              <h1 key={idea.slug.current}>{idea.title}</h1>
-              <img></img>
+            <div key={idea.slug.current}>
+              <h1 className="text-xl font-light py-3">{idea.title}</h1>
+              <div className=" w-full">
+                <img className="w-full" src={idea.mainImage.asset.url}></img>
+              </div>
             </div>
           );
         })}
