@@ -4,9 +4,12 @@ import auth from "../config/firebaseConfig";
 import { AuthContext } from "../context/authProvider";
 import { client } from "../lib/client";
 import { format } from "date-fns";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchData } from "../features/fetchData";
 
 function Trading() {
-  const [stories, setStories] = useState([]);
+  const { posts } = useSelector((store) => store.fetchData);
+  const dispatch = useDispatch();
   const auth = useContext(AuthContext);
   const navigate = useNavigate();
   useEffect(() => {
@@ -16,28 +19,7 @@ function Trading() {
   }, []);
 
   useEffect(() => {
-    client
-      .fetch(
-        `*[_type == "post"]{
-        title,
-        slug,
-        body,
-        publishedAt,
-        mainImage {
-          asset -> {
-            _id,
-            url
-          },
-          alt,
-        },
-        "name": author -> name,
-      }`
-      )
-      .then((data) => {
-        console.log(data);
-        setStories(data);
-      })
-      .catch((error) => console.log(error));
+    dispatch(fetchData());
   }, []);
 
   return (
@@ -46,7 +28,7 @@ function Trading() {
         This is trading ideas
       </h1>
       <div className="grid grid-cols-2 text-center">
-        {stories?.map((idea) => {
+        {posts?.map((idea) => {
           return (
             <div key={idea.slug.current}>
               <h1 className="text-xl font-light py-3">{idea.title}</h1>

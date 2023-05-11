@@ -11,7 +11,8 @@ import Community from "./pages/Community";
 import Detail from "./pages/Detail";
 import Login from "./pages/Login";
 import { AuthProvider } from "./context/authProvider";
-
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,8 +32,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router} />
-    </AuthProvider>
+    <Provider store={store}>
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
+    </Provider>
   </React.StrictMode>
 );
