@@ -7,6 +7,7 @@ export default {
       name: "title",
       title: "Title",
       type: "string",
+      validation: (Rule) => Rule.required(),
     },
     {
       name: "slug",
@@ -41,6 +42,9 @@ export default {
       name: "publishedAt",
       title: "Published at",
       type: "datetime",
+      options: {
+        timeFormat: "h:mm:ss a",
+      },
     },
     {
       name: "content",

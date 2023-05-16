@@ -2,14 +2,13 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../config/firebaseConfig";
 import { AuthContext } from "../context/authProvider";
-import { client } from "../lib/client";
-import { format } from "date-fns";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchData } from "../features/fetchData";
 
 function Trading() {
   const { posts } = useSelector((store) => store.fetchData);
   const dispatch = useDispatch();
+
   const auth = useContext(AuthContext);
   const navigate = useNavigate();
   useEffect(() => {

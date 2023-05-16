@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TradingIdeas from "./TradingIdeas";
 import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
 import { Timeline } from "react-ts-tradingview-widgets";
 import { EconomicCalendar } from "react-ts-tradingview-widgets";
 import Footer from "../components/Footer";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchData } from "../features/fetchData";
+
 function Hero() {
+  const { posts } = useSelector((store) => store.fetchData);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchData());
+  }, [dispatch]);
   return (
     <div className="h-screen w-full">
       <div className="flex flex-col items-center justify-center">
