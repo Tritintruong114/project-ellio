@@ -13,7 +13,7 @@ export function IdeaCard({ urlImage, date, status, slug }) {
       <p className="text-xs text-opacity-60 text-white">{date}</p>
       <img className="rounded-3xl object-cover h-full" src={urlImage}></img>
       <Link
-        to={`detail/${slug}`}
+        to={`trading/${slug}`}
         className="w-fit rounded-full px-3 md:px-6 text-center py-2 sm:py-2 bg-white bg-opacity-30 hover:text-white hover:bg-red-600 "
       >
         See more

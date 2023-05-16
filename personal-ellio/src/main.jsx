@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       { path: "education", element: <Education /> },
       { path: "community", element: <Community /> },
       { path: "home", element: <Body /> },
-      { path: "detail/:id", element: <Detail /> },
+      { path: "trading/:id", element: <Detail /> },
       { index: true, element: <Body /> },
       { path: "login", element: <Login /> },
     ],

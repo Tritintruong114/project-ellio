@@ -18,7 +18,7 @@ function Navbar() {
         <TickerTape colorTheme="dark" />
       </div>
 
-      <div className="w-full flex justify-center gap-3 p-3 items-center">
+      <div className="w-full  flex justify-center gap-3 p-3 items-center">
         <div className=" absolute left-3 opacity-0 sm:opacity-100">
           <Link to={"/"}>
             <button>Ellio</button>

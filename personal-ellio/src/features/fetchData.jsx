@@ -22,6 +22,7 @@ export const fetchData = createAsyncThunk("getData/posts", async () => {
         alt,
       },
       "name": author -> name,
+      "authorPicture": author -> image.asset -> url,
     }`);
 
     return response;
